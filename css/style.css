@@ -11,6 +11,7 @@ body{
     font-family:Arial, sans-serif;
     background:#0f172a;
     color:white;
+    
 }
 
 nav{
@@ -147,11 +148,14 @@ nav{
 .btn{
     transition:0.3s;
 }
-footer{
+footer{ 
     text-align:center;
-    padding:30px;
+    padding:20px;
     background:#a4a6ae;
+       width: 100%;
+    margin-bottom: 0;
 }
+        
 #stats{
     display:flex;
     justify-content:center;
@@ -253,7 +257,51 @@ align-items:center;
     color:white;
     transition:0.3s;
 }
+.live-btn{
+    background:#2563eb;
+    color:white;
+}
+
+
+.github-btn{
+    background:#111827;
+    color:white;
+}
 
 .project-btn:hover{
     transform:translateY(-3px);
+}
+.project-buttons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+
+.btn{
+    text-decoration:none;
+    padding:10px 22px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    transition:0.3s;
+    display:inline-block;
+}
+
+
+.live-btn{
+    background:#2563eb;
+    color:white;
+}
+
+
+.github-btn{
+    background:#111827;
+    color:white;
+}
+
+
+.btn:hover{
+    transform:translateY(-3px);
+    opacity:0.9;
 }
